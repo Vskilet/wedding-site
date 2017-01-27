@@ -391,7 +391,7 @@ p.about-dummy{
     transform: scale(1.5);
 }
 /*--flexisel--*/
-.flex-slider{	
+.flex-slider{
 background:#222227;
 padding: 70px 0 165px 0;
 }
@@ -973,7 +973,7 @@ ul.wmuSliderPagination {
 /*-- //news --*/
 /*-- newsletter --*/
 .newsletter{
-	background:url(../images/14.jpg) no-repeat 0px 0px;
+	background:url(../images/hand.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1060,7 +1060,7 @@ ul.wmuSliderPagination {
 }
 .resp-tabs-container {
 	padding: 0px;
-	clear: left;	
+	clear: left;
 }
 h2.resp-accordion {
 	cursor: pointer;
