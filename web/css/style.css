@@ -79,6 +79,66 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 	float:right;
 	margin: 2.2em 0 0;
 }
+/*-- /counter-agile --*/
+.agileinfo_counter_section {
+    background: url(../images/counter.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    padding-top:7em;
+    min-height: 400px; text-align: center;
+}
+.wthree-counter-agile {
+    width:60%;
+
+    margin: 8% auto 8%;
+}
+.simply-section {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.countdown-timer-w3laits h3 {
+       font-weight:200;
+	   font-size:3em;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+.countdown-timer-w3laits h4 {
+    margin-bottom:30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing:3px;
+	font-size:2em;
+	text-transform:uppercase;
+}
+
+.countdown-timer-w3laits h3  span{
+	     color: #ff8c00;
+}
+span.simply-amount {
+	    font-size:5em;
+    line-height: 0;
+    color: #fff;
+}
+
+span.simply-word {
+     font-size:15px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: #eee;
+	    font-family: 'Open Sans', sans-serif;
+}
+/*-- //Countdown-Timer --*/
 /*-- social-icons --*/
 ul.social-icons li{
 	display:inline-block;
