@@ -1,5 +1,4 @@
-FROM nginx:1.11.8-alpine
+FROM php:7.0-apache
 MAINTAINER nous@constanceetvictor.fr
 
-ADD web/ /usr/share/nginx/html/
-COPY nginx-site.conf /etc/nginx/conf.d/default.conf
+ADD web/ /var/www/html/

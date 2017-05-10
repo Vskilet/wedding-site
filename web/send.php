@@ -6,8 +6,8 @@
 	$subject = $_POST['Subject'];
 	$message = $_POST['Message'];
 
-	$headers = 'From: contact@constanceetvictor.fr' . "\r\n" .
-	    'Reply-To: contact@constanceetvictor.fr' . "\r\n" .
+	$headers = 'From: nous@constanceetvictor.fr' . "\r\n" .
+	    'Reply-To: nous@constanceetvictor.fr' . "\r\n" .
 	    'X-Mailer: PHP/' . phpversion();
 
 	mail($mail, $subject, $message, $headers);
