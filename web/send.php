@@ -4,6 +4,7 @@ ini_set('display_errors', 'On');
 /* Si le formulaire est envoyé alors on fait les traitements */
 if (isset($_POST['envoye']))
 {
+    echo '<p style="color:red">'.'Envoye'.'</p>';
     /* Récupération des valeurs des champs du formulaire */
     if (get_magic_quotes_gpc())
     {
