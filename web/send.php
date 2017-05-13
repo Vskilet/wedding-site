@@ -7,12 +7,12 @@
 	$message = $_POST['Message'];
 
 	$headers = 'From: nous@constanceetvictor.fr' . "\r\n" .
-               'Reply-To: nous@constanceetvictor.fr' . "\r\n" .
-               'X-Mailer: PHP/' . phpversion();
+	'Reply-To: nous@constanceetvictor.fr' . "\r\n" .
+	'X-Mailer: PHP/' . phpversion();
 
 	if(mail($mail, $subject, $message, $headers)){
         //ça marche
-    }else{
-        phpinfo();
-    }    
+  }else{
+			phpinfo();
+  }
 ?>
