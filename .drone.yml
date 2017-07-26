@@ -1,0 +1,15 @@
+pipeline:
+  build:
+    image: docker
+    commands:
+      - docker stop wedding
+      - docker rm wedding
+      - docker run -d \
+        --network nginx-net \
+        --name wedding \
+        --restart always \
+        --label traefik.frontend.rule=Host:constanceetvictor.fr \
+        --label traefik.port=80 \
+        site-wedding
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
