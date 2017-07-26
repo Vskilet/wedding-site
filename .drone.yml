@@ -2,6 +2,7 @@ pipeline:
   build:
     image: docker
     commands:
+      - docker build -t site-wedding https://github.com/Vskilet/site-wedding.git
       - docker stop wedding
       - docker rm wedding
       - docker run -d \
