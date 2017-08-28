@@ -2,15 +2,9 @@ pipeline:
   build:
     image: docker
     commands:
-      - docker build -t site-wedding https://github.com/Vskilet/site-wedding.git
+      - docker build -t site-wedding .
       - docker stop wedding
       - docker rm wedding
-      - docker run -d \
-        --network nginx-net \
-        --name wedding \
-        --restart always \
-        --label traefik.frontend.rule=Host:constanceetvictor.fr \
-        --label traefik.port=80 \
-        site-wedding
+      - docker run -d --network nginx-net --name wedding --restart always --label traefik.frontend.rule=Host:constanceetvictor.fr --label traefik.port=80 site-wedding
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
