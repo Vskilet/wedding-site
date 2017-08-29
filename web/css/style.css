@@ -1406,11 +1406,10 @@ div#gallery h6 {
 	   color: #ff8c00;
 }
 span.simply-amount {
-	  font-size:5em;
+	  font-size:7em;
     line-height: 0;
     color: #fff;
 }
-
 span.simply-word {
     font-size:15px;
     letter-spacing: 3px;
@@ -1870,13 +1869,13 @@ span.simply-word {
 		margin: 8% auto 8%;
 	}
 	span.simply-amount {
-		  font-size:4em;
+			font-size:5em;
 	}
 	span.simply-word {
-	    font-size:10px;
-	    letter-spacing: 1px;
-	    font-weight: 500;
-	    margin-left: 3px;
+			font-size:10px;
+			letter-spacing: 1px;
+			font-weight: 500;
+			margin-left: 3px;
 	}
 	.navbar-nav > li > a {
 		font-size: .9em;
@@ -1971,6 +1970,9 @@ span.simply-word {
 	}
 }
 @media(max-width: 800px){
+	span.simply-amount {
+			font-size:4em;
+	}
 	.link--yaku span {
 		letter-spacing: 0px;
 	}
@@ -2000,6 +2002,9 @@ span.simply-word {
 	}
 }
 @media(max-width: 768px){
+	span.simply-amount {
+			font-size:3em;
+	}
 	.banner, .banner-2, .w3l-overlay {
 		min-height: 560px;
 	}
