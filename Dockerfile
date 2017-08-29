@@ -1,4 +1,4 @@
-FROM nginx:1.11.8-alpine
-MAINTAINER contact@constanceetvictor.fr
+FROM php:7.0-apache
+MAINTAINER nous@constanceetvictor.fr
 
-ADD web/ /usr/share/nginx/html/
+ADD web/ /var/www/html/
