@@ -83,7 +83,7 @@ label{
 }
 .w3l-overlay {
     background: url(../images/overlay.png)repeat;
-	min-height: 848px;
+		min-height: 848px;
 }
 /*-- search --*/
 .ph-agile {
@@ -400,13 +400,13 @@ a.view span{
 }
 .agileits-banner-info:before {
     content: '';
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     background: rgba(0, 0, 0, 0.51);
     position: absolute;
     border-radius: 50%;
-    left: 29.5%;
-    top: -26%;
+    left: 25.5%;
+    top: -70%;
     z-index: -1;
     margin: 0 auto;
 }
@@ -1656,7 +1656,7 @@ span.simply-word {
 		font-size: 2.3em;
 	}
 	.agileits-banner-info:before {
-		top: -29%;
+		top: -60%;
 	}
 	.agileits-serv {
 		padding: 4.46em 0em;
@@ -1682,10 +1682,10 @@ span.simply-word {
 		min-height: 748px;
 	}
 	.agileits-banner-info:before {
-		top: -29%;
-		width: 420px;
-		height: 420px;
-		left: 31%;
+		top: -75%;
+		width: 470px;
+		height: 470px;
+		left: 24.5%;
 	}
 	.agileits-banner-info {
 		margin-top: 19em;
@@ -1762,10 +1762,10 @@ span.simply-word {
 		font-size: 2em;
 	}
 	.agileits-banner-info:before {
-		top: -30%;
-		width: 380px;
-		height: 380px;
-		left: 29%;
+		top: -70%;
+		width: 440px;
+		height: 440px;
+		left: 26%;
 	}
 	.agileits-banner-info {
 		margin-top: 17em;
@@ -1892,8 +1892,8 @@ span.simply-word {
 		font-size: 1em;
 	}
 	.agileits-banner-info:before {
-		top: -30%;
-		left: 24%;
+		top: -75%;
+		left: 19%;
 	}
 	.agileits-banner-info h4 {
 		font-size: 1.9em;
@@ -2025,10 +2025,10 @@ span.simply-word {
 		padding-top: 1em;
 	}
 	.agileits-banner-info:before {
-		width: 330px;
-		height: 330px;
-		top: -25%;
-		left: 26%;
+		width: 390px;
+		height: 390px;
+		top: -75%;
+		left: 22.5%;
 	}
 	.agileits-banner-info h4 {
 		font-size: 1.7em;
@@ -2167,9 +2167,9 @@ span.simply-word {
 		font-size: 2.8em;
 	}
 	.agileits-banner-info:before {
-		left: 24.5%;
-		width: 300px;
-		height: 300px;
+		left: 22%;
+		width: 330px;
+		height: 330px;
 	}
 	a.view {
 		margin: 0.5em auto 0em;
@@ -2245,10 +2245,10 @@ span.simply-word {
 		font-size: 2.6em;
 	}
 	.agileits-banner-info:before {
-		left: 25%;
-		top: -22%;
-		width: 280px;
-		height: 280px;
+		left: 20%;
+		top: -80%;
+		width: 330px;
+		height: 330px;
 	}
 	.callbacks_tabs {
 		top: 43%;
@@ -2302,8 +2302,8 @@ span.simply-word {
 		padding: 0.8em 1.3em;
 	}
 	.agileits-banner-info:before {
-		left: 23.5%;
-		top: -21%;
+		left: 18%;
+		top: -70%;
 	}
 	.agileits-banner-info p {
 		font-size: 0.85em;
@@ -2396,10 +2396,10 @@ span.simply-word {
 		font-size: 2.4em;
 	}
 	.agileits-banner-info:before {
-		left: 21.5%;
-		top: -22%;
-		width: 250px;
-		height: 250px;
+		left: 15%;
+		top: -80%;
+		width: 310px;
+		height: 310px;
 	}
 	a.view {
 		padding: 0.7em 1.2em;
@@ -2565,10 +2565,10 @@ span.simply-word {
 		padding-right: 0.7em;
 	}
 	.agileits-banner-info:before {
-		left: 20.5%;
-		top: -19%;
-		width: 220px;
-		height: 220px;
+		left: 13%;
+		top: -80%;
+		width: 260px;
+		height: 260px;
 	}
 	a.view {
 		padding: 0.6em 1em;
@@ -2708,8 +2708,8 @@ span.simply-word {
 		width: 55%;
 	}
 	.agileits-banner-info:before {
-		left: 18%;
-		top: -18%;
+		left: 11.5%;
+		top: -85%;
 	}
 	.main ul li {
 		padding: 0em 1.2em;
@@ -2773,8 +2773,10 @@ span.simply-word {
 		min-height: 350px;
 	}
 	.agileits-banner-info:before {
-		width: 200px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
+		left: 12%;
+		top: -85%;
 	}
 	.agileits-banner-info h4 {
 		font-size: 1.2em;
@@ -2834,10 +2836,10 @@ span.simply-word {
 		margin-right: 4px;
 	}
 	.agileits-banner-info:before {
-		width: 190px;
-		height: 190px;
-		left: 15%;
-		top: -20%;
+		width: 225px;
+		height: 225px;
+		left: 7%;
+		top: -90%;
 	}
 	.agileits-banner-info h4 {
 		font-size: 1.1em;
