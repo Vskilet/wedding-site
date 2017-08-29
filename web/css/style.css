@@ -2362,6 +2362,16 @@ span.simply-word {
 	}
 }
 @media(max-width: 480px){
+	span.simply-amount {
+			font-size:2.5em;
+	}
+	span.simply-word {
+			font-size:6px;
+			letter-spacing: 1px;
+			font-weight: 500;
+			margin-left: 2px;
+	}
+
 	.ph-agile i {
 		font-size: 1.2em;
 	}
