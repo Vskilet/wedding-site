@@ -1,6 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: Victor SENE
+Author URL: https://sene.ovh
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
@@ -382,7 +382,7 @@ a.view {
     color: #fff;
     font-size: 1.2em;
     letter-spacing: 1px;
-    background: #3369e7;
+    background: #1e1a51;
     padding: 0.8em 1.5em;
     display: inline-block;
     margin: 1.5em auto 0em;
@@ -698,7 +698,7 @@ h3.w3_tittle{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: #3369e7;
+	background: #1e1a51;
 	height: 100%;
 	opacity: 0;
 	width: 100%;
@@ -811,7 +811,7 @@ h3.w3_tittle{
 	color: #000;
 }
 .right-w3l {
-    background: url(../images/ser-bg.jpg)no-repeat;
+    background-color: #1e1a51;
     background-size: cover;
     padding: 3.5em 0em 2em;
 	text-align: center;
@@ -873,7 +873,7 @@ h3.w3_tittle{
     margin: 1.5em 0em 1em;
 }
 .news-grid-info a.rew3:hover{
-	color:#3369e7;
+	color:#1e1a51;
 }
 .news-grid-info h5 {
     color: #000;
@@ -925,7 +925,7 @@ a.view.resw3 {
     padding: 0;
 }
 a.view.resw3:hover {
-    color: #3369e7;
+    color: #1e1a51;
 }
 .response h3 {
     font-size: 2em;
@@ -971,7 +971,7 @@ a.read-w3 {
     transition: all 0.5s;
 }
 a.read-w3:hover {
-    color: #3369e7;
+    color: #1e1a51;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1008,7 +1008,7 @@ a.read-w3:hover {
     text-align: left;
 }
 .team h4 {
-    color: #3369e7;
+    color: #1e1a51;
     font-size: 1.8em;
     margin-bottom: 0.3em;
 }
@@ -1068,7 +1068,7 @@ a.read-w3:hover {
     transition: 0.5s all;
 }
 .social-w3lsicon a:hover {
-    color: #3369e7;
+    color: #1e1a51;
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
@@ -1213,7 +1213,7 @@ div#gallery h6 {
     opacity: .7;
 }
 .g {
-	background-color:#3369e7;
+	background-color:#1e1a51;
 }
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
@@ -1441,7 +1441,7 @@ span.simply-word {
 	margin-bottom: 0.5em;
 }
 .contact-top1 {
-    background: #3369e7;
+    background: #1e1a51;
     padding: 3em 3em 4em;
 }
 .contact-grid1 input[type="submit"] {
@@ -1550,7 +1550,7 @@ span.simply-word {
     text-decoration: none;
 }
 .ftr-menu ul li a:hover{
-	color:#3369e7;
+	color:#1e1a51;
 }
 /*-- social-icons --*/
 .w3l_header_left-2 {
@@ -1595,7 +1595,7 @@ span.simply-word {
     font-size: 1em;
 }
 .copyrights p a {
-    color: #3369e7;
+    color: #1e1a51;
 }
 .copyrights p a:hover {
     color: #fff;
@@ -2057,7 +2057,7 @@ span.simply-word {
 }
 @media(max-width: 767px){
 	.navbar-toggle {
-		background-color: #3369e7;
+		background-color: #1e1a51;
 		border: 1px solid #fff;
 	}
 	.navbar-nav {
